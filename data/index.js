@@ -75,7 +75,7 @@ export const Resume = {
 
     playground: `{
         Playground = () => {   
-            Backend REST API with Python & Django: {
+            Backend Rest API with Python & Django: {
                 url: <a target='_blank' href='https://github.com/sanydge/rest_api'>'https://github.com/sanydge/rest_api'</a>
             },    
             Scraping geekbuying.com: {
