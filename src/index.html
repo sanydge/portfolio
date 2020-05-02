@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="Description" content="Tirdea Alexandru - I make things  happen. Python, Flask, Django">
+    <title>Tirdea Alex - Python Developer</title>
+<!--    <link rel="icon" href="/favicon.png" type="image/png" />-->
+</head>
+
+<body>
+    <div id="root"></div>
+
+    <script>
+        // Check that service workers are supported
+        if('serviceWorker' in navigator) {
+            // Use the window load event to keep the page load performant
+            window.addEventListener('load',() => {
+                navigator.serviceWorker.register('/service-worker.js');
+            });
+        }
+    </script>
+</body>
+
+</html>
