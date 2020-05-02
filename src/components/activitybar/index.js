@@ -22,18 +22,18 @@ const ActivityBar = (props) => {
                 animate="visible"
                 variants={List}
             >
-                <Link title="Resume" variants={Item} whileHover={{ scale: 1.2 }} href={socialLinks.resume} target="_blank">
-                    <Resume />
-                </Link>
+                {/*<Link title="Resume" variants={Item} whileHover={{ scale: 1.2 }} href={socialLinks.resume} target="_blank">*/}
+                {/*    <Resume />*/}
+                {/*</Link>*/}
                 <Link title="Linkedin" variants={Item} whileHover={{ scale: 1.2 }} href={socialLinks.linkedin} target="_blank">
                     <Linkedin />
                 </Link>
                 <Link title="Github" variants={Item} whileHover={{ scale: 1.2 }} href={socialLinks.github} target="_blank">
                     <Github />
                 </Link>
-                <Link title="Export as PDF" variants={Item} whileHover={{ scale: 1.2 }} href="/download" target="_blank">
-                    <Pdf className="pdf"/>
-                </Link>
+                {/*<Link title="Export as PDF" variants={Item} whileHover={{ scale: 1.2 }} href="/download" target="_blank">*/}
+                {/*    <Pdf className="pdf"/>*/}
+                {/*</Link>*/}
             </motion.ul>
 
             <Mode whileHover={{ scale: 1.2 }} title="Change Theme">
