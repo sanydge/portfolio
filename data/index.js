@@ -116,6 +116,7 @@ export const Resume = {
             {
                 email: 'sanydge@gmail.com',
                 mobile: '0040754568729'
+                visit
             }
         }
 }`
