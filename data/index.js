@@ -114,7 +114,7 @@ export const Resume = {
     contact: `{
         Contact = () => {       
             {
-                email: 'sanydge@gmail.com',
+                email: 'tirdea.alex90@gmail.com',
                 mobile: '0040754568729'           
             }
         }
