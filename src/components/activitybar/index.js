@@ -22,9 +22,9 @@ const ActivityBar = (props) => {
                 animate="visible"
                 variants={List}
             >
-                {/*<Link title="Resume" variants={Item} whileHover={{ scale: 1.2 }} href={socialLinks.resume} target="_blank">*/}
-                {/*    <Resume />*/}
-                {/*</Link>*/}
+                <Link title="Resume" variants={Item} whileHover={{ scale: 1.2 }} href={socialLinks.resume} target="_blank">
+                    <Resume />
+                </Link>
                 <Link title="Linkedin" variants={Item} whileHover={{ scale: 1.2 }} href={socialLinks.linkedin} target="_blank">
                     <Linkedin />
                 </Link>

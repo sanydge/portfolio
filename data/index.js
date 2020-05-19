@@ -123,8 +123,7 @@ export const Resume = {
 
 
 export const SocialLinks = {
-    // resume: '/resume.pdf',
-
+    resume: '/resume.pdf',
     linkedin: 'https://www.linkedin.com/in/alexandru-tirdea/',
     github: 'https://github.com/sanydge'
 }
